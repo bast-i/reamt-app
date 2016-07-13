@@ -1,0 +1,9 @@
+applications:
+- name: basti-angularjs-test
+  command: node server.js
+  memory: 64M
+  # Add your name/initials to make the hostname unique
+  # host: emcday-${random-word}
+  host: basti-angularjs-test
+  # Currently defaults to PWS
+  domain: cfapps.io
