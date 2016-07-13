@@ -1,14 +1,17 @@
 {
-"name": "myFirstApp",
-"version": "0.0.1",
-"author": "Bast-i",
-"description": "A project that gives you a clean starting point",
-"dependencies": {
- "express": "4.13.3",
- "connect": "2.0.0",
- "serve-static": "1.5.0"
-},
-"scripts": {
-"start": "node server.js"
-}
+    "name": "MyFirstApp",
+    "version": "0.0.1",
+    "author": "Bast-i",
+
+    "dependencies": {
+        "express": "4.13.x",
+        "consolidate": "0.10.0",
+        "connect": "2.0.0",
+        "serve-static": "1.5.0"
+    },
+    
+    "engines": {
+        "node": "0.12.7",
+        "npm": "2.7.4"
+    }
 }
